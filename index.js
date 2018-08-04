@@ -8,7 +8,7 @@ zibal.request(2000, {
 }, function(body){
     // redircet to start page
     trackId = body.trackId;
-    console.log(body.trackId, '\nGATEWAY URL:', "https://gateway.zibal.ir/start/" + body.trackId);
+    console.log('GATEWAY URL:', "https://gateway.zibal.ir/start/" + body.trackId);
 });
 
 // Call verify when payment session is over
